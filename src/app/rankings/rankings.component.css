@@ -1,0 +1,21 @@
+.box{
+  height: 95%;
+  border: 1px solid white;
+  color: #FFF;
+}
+
+.content{
+  margin: 10px 30px;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+li {
+  color: black;
+  width:100%;
+  height:auto;
+  *border: 1px solid black;
+  list-style: none;
+}

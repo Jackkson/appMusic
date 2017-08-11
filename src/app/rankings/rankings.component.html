@@ -1,0 +1,17 @@
+<div class="box">
+  <div class="content">
+    <p>
+      Rankings works ! J'ai {{elements.total}}
+    </p>
+    <button type="button" class="btn btn-info" name="triPop" onclick="console.log('tri')">Trier par popularité</button>
+    <ul class="list-group">
+      <li *ngFor="let element of elements.items" class="list-group-item">
+        <h4>{{element.name}}</h4>
+        <p>{{element.popularity}} %</p>
+        <img src="{{element.images[1].url}}" alt="" height="160px" width="">
+        <p><i>{{element.genres}}</i></p>
+        <p><b>{{element.followers.total}}</b> abonnés</p>
+      </li>
+    </ul>
+    </div>
+</div>
